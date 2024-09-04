@@ -1,0 +1,33 @@
+h1 {
+  color: #c264ff;
+  font-size: 55px;
+  margin: 10px;
+}
+
+.weather-details {
+  background-color: grey;
+}
+
+.city-name {
+  background-color: #cc7dff;
+  padding: 10px 15px 11px 10px;
+  font-size: 16px;
+  width: 70%;
+  margin: 15px 10px 16px 10px;
+  border-radius: 10px;
+  border: 1px solid #9803fc;
+}
+.search-button {
+  background-color: #9803fc;
+  color: #cc7dff;
+  padding: 10px 15px 11px 10px;
+  font-size: 16px;
+  margin: 15px 10px 16px 5px;
+  border-radius: 10px;
+  border: 1px solid #cc7dff;
+}
+.search-button:hover {
+  background-color: #cc7dff;
+  color: #9803fc;
+  border-radius: 1px solid #9803fc;
+}
