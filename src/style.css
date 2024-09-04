@@ -3,9 +3,31 @@ h1 {
   font-size: 55px;
   margin: 10px;
 }
-
+p {
+  padding: 0px 15px 11px 10px;
+  font-size: 20px;
+  color: #c264ff;
+}
 .weather-details {
+  position: fixed;
+  top: 80px;
+  right: 70px;
   background-color: grey;
+  border: 1px solid #9803fc;
+  border-radius: 17px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  padding: 40px 30px 70px;
+}
+span {
+  display: flex;
+  justify-content: right;
+  top: 20px;
+  font-size: 85px;
+  position: absolute;
+  top: 175px;
+  right: 40px;
 }
 
 .city-name {
