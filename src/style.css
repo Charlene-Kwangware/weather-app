@@ -1,24 +1,13 @@
 h1 {
-  color: #c264ff;
+  color: #9803fc;
   font-size: 55px;
   margin: 10px;
 }
 p {
   padding: 0px 15px 11px 10px;
   font-size: 20px;
-  color: #c264ff;
-}
-.weather-details {
-  position: fixed;
-  top: 80px;
-  right: 70px;
-  background-color: grey;
-  border: 1px solid #9803fc;
-  border-radius: 17px;
-  width: 80%;
-  display: block;
-  margin: 0 auto;
-  padding: 40px 30px 70px;
+  color: #9803fc;
+  margin: 10px 35px 10px 4px;
 }
 span {
   display: flex;
@@ -29,20 +18,40 @@ span {
   top: 175px;
   right: 40px;
 }
+footer {
+  color: #cc7dff;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+  font-size: 18px;
+  text-align: center;
+}
+a {
+  color: #9803fc;
+}
+
+.weather-details {
+  background-color: grey;
+  border: 1px solid #9803fc;
+  border-radius: 17px;
+  width: 90%;
+  display: block;
+  margin: 59px auto;
+  padding: 40px 30px 70px;
+}
 
 .city-name {
   background-color: #cc7dff;
-  padding: 10px 15px 11px 10px;
+  padding: 10px 35px 11px 10px;
   font-size: 16px;
   width: 70%;
-  margin: 15px 10px 16px 10px;
+  margin: 15px 3px 16px 10px;
   border-radius: 10px;
   border: 1px solid #9803fc;
 }
 .search-button {
   background-color: #9803fc;
   color: #cc7dff;
-  padding: 10px 15px 11px 10px;
+  padding: 10px 15px 11px 15px;
   font-size: 16px;
   margin: 15px 10px 16px 5px;
   border-radius: 10px;
@@ -52,4 +61,23 @@ span {
   background-color: #cc7dff;
   color: #9803fc;
   border-radius: 1px solid #9803fc;
+}
+.main-information {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+.temperature-details {
+  display: flex;
+  justify-content: space-between;
+}
+.temperature-value {
+  font-size: 90px;
+  font-weight: 600;
+  color: #9803fc;
+  margin: 45px 0px;
+}
+.temperature-icon {
+  font-size: 60px;
+  margin: 60px 5px 60px 0px;
 }
