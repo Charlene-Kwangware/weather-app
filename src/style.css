@@ -77,10 +77,15 @@ a {
   font-size: 90px;
   font-weight: 600;
   color: #9803fc;
-  margin: 45px 25px 0px 0px;
+  margin: 45px 5px 0px 0px;
   width: 90%;
 }
 .temperature-icon {
   font-size: 60px;
   margin: 60px 5px 60px 0px;
+}
+.temperature-unit {
+  font-size: 30px;
+  margin: 60px 35px 0px 0px;
+  color: #9803fc;
 }
