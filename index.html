@@ -9,12 +9,13 @@
   <body>
     <div class="weather-details">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="text"
             placeholder="Enter a city..."
             required
-            class="city-name"
+            class="city-name-form"
+            id="city-name-form"
           />
           <input type="submit" value="Search" class="search-button" />
         </form>
@@ -40,5 +41,6 @@
         <a href="https://www.netlify.com/">Netlify</a>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
