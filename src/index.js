@@ -10,6 +10,30 @@ function displayTemperature(response) {
   weatherHumidity.innerHTML = `Humidity: ${response.data.temperature.humidity}%`;
   let weatherWind = document.querySelector("#wind");
   weatherWind.innerHTML = `Wind: ${response.data.wind.speed} km/h`;
+  let time = document.querySelector("#time");
+  let date = new Date(response.data.time * 1000);
+  time.innerHTML = formatDate(date);
+}
+function formatDate(date) {
+  let days = [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday",
+    "Thursday",
+    "Friday",
+    "Saturday",
+  ];
+  let day = days[date.getDay()];
+  let minutes = date.getMinutes();
+  let hours = date.getHours();
+  if (minutes < 10) {
+    minutes = `0${minutes}`;
+  }
+  if (hours < 10) {
+    hours = `0${hours}`;
+  }
+  return `${day} ${hours}:${minutes}`;
 }
 
 function searchCityWeather(city) {

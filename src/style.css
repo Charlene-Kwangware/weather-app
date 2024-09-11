@@ -29,7 +29,8 @@ a {
 }
 #description,
 #humidity,
-#wind {
+#wind,
+#time {
   padding: 0px 15px 0px 10px;
   font-size: 20px;
   color: #9803fc;
