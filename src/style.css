@@ -33,10 +33,10 @@ a {
 #wind,
 #time {
   display: inline;
-  padding: 0px 15px 0px 10px;
+  padding: 0px 10px 0px 10px;
   font-size: 20px;
   color: #9803fc;
-  margin: 0px 25px 0px 4px;
+  margin: 0px 20px 0px 4px;
 }
 .weather-details {
   background-color: #41b1d6;

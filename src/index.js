@@ -7,7 +7,7 @@ function displayTemperature(response) {
   let weatherDescription = document.querySelector("#description");
   weatherDescription.innerHTML = response.data.condition.description;
   let weatherHumidity = document.querySelector("#humidity");
-  weatherHumidity.innerHTML = `Humidity: ${response.data.temperature.humidity}%`;
+  weatherHumidity.innerHTML = `Humidity:${response.data.temperature.humidity}%`;
   let weatherWind = document.querySelector("#wind");
   weatherWind.innerHTML = `Wind: ${response.data.wind.speed} km/h`;
   let time = document.querySelector("#time");
