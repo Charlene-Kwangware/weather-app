@@ -13,6 +13,8 @@ function displayTemperature(response) {
   let time = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
   time.innerHTML = formatDate(date);
+  let weatherIcon = document.querySelector("#icon");
+  weatherIcon.innerHTML = ` <img src="${response.data.condition.icon_url}"></img>`;
 }
 function formatDate(date) {
   let days = [
