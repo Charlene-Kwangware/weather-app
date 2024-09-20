@@ -102,3 +102,26 @@ a {
   margin: 60px 35px 0px 0px;
   color: #9803fc;
 }
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+}
+.weather-forecast-day {
+  font-size: 24px;
+  margin-top: 20px;
+  color: blue;
+}
+.weather-forecast-icon {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.weather-forecast-temperatures {
+  font-size: 17px;
+  margin: 10px 0px 15px;
+  color: #9803fc;
+  display: flex;
+}
+.max-temperature {
+  margin-right: 15px;
+  font-weight: 900;
+}
