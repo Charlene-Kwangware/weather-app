@@ -51,5 +51,55 @@ function searchCity(event) {
   searchCityWeather(searchInput.value);
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Fri", "Sat", "Sun", "Mon", "Tue"];
+
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHtml +
+      `
+      <div class="forecast">
+          <div class="weather-forecast-day">${day}</div>
+      <div class="weather-forecast-icon"> ⛅</div>
+      <div class="weather-forecast-temperatures">
+         <div class="max-temperature">15℃</div>  
+         <div class="min-temperature">9℃</div>
+        </div>
+      </div>
+      `;
+  });
+
+  forecastElement.innerHTML = forecastHtml;
+}
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Fri", "Sat", "Sun", "Mon", "Tue"];
+
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+      <div class="forecast">
+          <div class="weather-forecast-day">${day}</div>
+      <div class="weather-forecast-icon"> ⛅</div>
+      <div class="weather-forecast-temperatures">
+         <div class="max-temperature">15℃</div>  
+         <div class="min-temperature">9℃</div>
+        </div>
+      </div>
+      `;
+  });
+
+  forecastElement.innerHTML = forecastHtml;
+}
+displayForecast();
 let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", searchCity);
